@@ -1,0 +1,7 @@
+--readme README.md
+--title 'OpenGL Registry'
+--charset utf-8
+--markup markdown
+--protected
+lib/**/*.rb
+--exclude lib/opengl/registry/words.rb
