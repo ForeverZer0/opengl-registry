@@ -311,8 +311,3 @@ module GL
     end
   end
 end
-
-registry = GL::Registry.load('/code/ruby/khronos-temp/gl.xml')
-spec = GL::Spec.new(registry, :gl, 4.3, :compatibility)
-
-p spec.enums.size
